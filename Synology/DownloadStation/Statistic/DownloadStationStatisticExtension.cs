@@ -1,6 +1,6 @@
 ﻿using Synology;
 using Synology.DownloadStation;
-using Synology.DownloadStation.Task;
+using Synology.DownloadStation.Statistic;
 
 namespace Synology
 {
@@ -14,9 +14,9 @@ namespace Synology
         /// </summary>
         /// <returns>The task.</returns>
         /// <param name="api">API.</param>
-		public static ITaskRequest Task(this IDownloadStationApi api)
+		public static IStatisicRequest Statisic(this IDownloadStationApi api)
 		{
-			return api.Request<ITaskRequest>();
+			return api.Request<IStatisicRequest>();
 		}
 	}
 }
