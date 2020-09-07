@@ -57,6 +57,7 @@ namespace Synology.Classes
             Services.AddRequest<DownloadStation.Info.IInfoRequest, DownloadStation.Info.InfoRequest>();
             Services.AddRequest<IScheduleRequest, ScheduleRequest>();
             Services.AddRequest<DownloadStation.Task.ITaskRequest, DownloadStation.Task.TaskRequest>();
+            Services.AddRequest<DownloadStation.Statistic.IStatisticRequest, DownloadStation.Statistic.StatisticRequest>();
 
             return this;
         }

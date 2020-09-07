@@ -14,9 +14,9 @@ namespace Synology
         /// </summary>
         /// <returns>The task.</returns>
         /// <param name="api">API.</param>
-		public static IStatisicRequest Statisic(this IDownloadStationApi api)
+		public static IStatisticRequest Statistic(this IDownloadStationApi api)
 		{
-			return api.Request<IStatisicRequest>();
+			return api.Request<IStatisticRequest>();
 		}
 	}
 }
