@@ -29,7 +29,8 @@ namespace Synology.Api.Auth
             parameters = parameters ?? new LoginParameters
             {
                 Username = Api.Connection.Settings.Username,
-                Password = Api.Connection.Settings.Password
+                Password = Api.Connection.Settings.Password,
+                SessionName = Api.Connection.Settings.SessionName,
             };
 
             _sessionNumber = parameters.SessionName;

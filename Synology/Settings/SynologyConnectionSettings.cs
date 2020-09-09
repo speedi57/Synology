@@ -25,6 +25,7 @@ namespace Synology.Settings
         public bool Ssl { get; set; }
         public int Port { get; set; }
         public int SslPort { get; set; }
+        public string SessionName { get ; set ; }
         //public bool VerifySsl { get; set; } = true;
     }
 }

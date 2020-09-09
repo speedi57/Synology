@@ -46,5 +46,9 @@
         ///// </summary>
         ///// <value><c>true</c> if verify ssl; otherwise, <c>false</c>.</value>
         //bool VerifySsl { get; set; }
+        /// <summary>
+        /// Get or sets a value indicating which session name the login need to use
+        /// </summary>
+        string SessionName { get; set; }
     }
 }
